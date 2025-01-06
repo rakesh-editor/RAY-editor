@@ -24,6 +24,13 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
+.logo-container img {
+    max-width: 150px;  /* Logo size adjust karein */
+    height: auto;
+    border-radius: 50%;  /* Circle shape */
+    border: 2px solid #00ffcc;  /* Optional border for style */
+    object-fit: cover;  /* Ensures image fits nicely inside the circle */
+}
 
 .circle {
     height: 19px;
